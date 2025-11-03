@@ -64,10 +64,6 @@ python scripts/run_generation.py \
   --num_beams 5 \
   --output_file ../output/visualcomet_inferences.json
 ```
-
-> **Directory Reference:**  
-> See [directory.md](https://github.com/your-username/MICK/blob/main/directory.md) for expected structure.
-
 ---
 
 ## 2. Running MICK (shark implementation)
