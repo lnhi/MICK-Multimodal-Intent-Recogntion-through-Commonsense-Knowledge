@@ -92,9 +92,6 @@ Extract to: `datasets/MIntRec/`
 sh scripts/run_mick.sh
 ```
 
-> Default config: `bert-base-uncased`, VisualCOMET + COMET fusion, cross-modal attention, class-weighted loss.
-
-```
 
 ## 3. Acknowledgments
 
