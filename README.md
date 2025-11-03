@@ -66,7 +66,7 @@ python scripts/run_generation.py \
 ```
 ---
 
-## 2. Running MICK (shark implementation)
+## 2. Running MICK 
 
 ```bash
 cd ../mick
