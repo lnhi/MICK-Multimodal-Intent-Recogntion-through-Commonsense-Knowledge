@@ -1,0 +1,4 @@
+easydict==1.9
+transformers==4.17.0
+pandas==2.0.3
+sklearn==0.0

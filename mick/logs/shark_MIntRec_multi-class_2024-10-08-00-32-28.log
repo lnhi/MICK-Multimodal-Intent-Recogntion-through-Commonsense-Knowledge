@@ -1,0 +1,63 @@
+2024-10-08 00:32:28,866 - ============================== Params ==============================
+2024-10-08 00:32:28,867 - logger_name: shark_MIntRec_multi-class_2024-10-08-00-32-28
+2024-10-08 00:32:28,868 - dataset: MIntRec
+2024-10-08 00:32:28,868 - data_mode: multi-class
+2024-10-08 00:32:28,869 - method: shark
+2024-10-08 00:32:28,870 - text_backbone: bert-base-uncased
+2024-10-08 00:32:28,870 - seed: 3
+2024-10-08 00:32:28,871 - num_workers: 8
+2024-10-08 00:32:28,871 - gpu_id: 0
+2024-10-08 00:32:28,872 - data_path: datasets
+2024-10-08 00:32:28,873 - train: True
+2024-10-08 00:32:28,873 - tune: False
+2024-10-08 00:32:28,874 - save_model: False
+2024-10-08 00:32:28,881 - save_results: True
+2024-10-08 00:32:28,881 - log_path: logs
+2024-10-08 00:32:28,882 - cache_path: cache
+2024-10-08 00:32:28,882 - video_data_path: video_data
+2024-10-08 00:32:28,883 - audio_data_path: audio_data
+2024-10-08 00:32:28,883 - video_feats_path: video_feats.pkl
+2024-10-08 00:32:28,884 - audio_feats_path: audio_feats.pkl
+2024-10-08 00:32:28,884 - results_path: results
+2024-10-08 00:32:28,884 - output_path: outputs
+2024-10-08 00:32:28,886 - model_path: models
+2024-10-08 00:32:28,886 - config_file_name: shark
+2024-10-08 00:32:28,887 - results_file_name: shark.csv
+2024-10-08 00:32:28,888 - weight_fuse_relation: 0.9
+2024-10-08 00:32:28,889 - padding_mode: zero
+2024-10-08 00:32:28,889 - padding_loc: end
+2024-10-08 00:32:28,890 - need_aligned: True
+2024-10-08 00:32:28,891 - eval_monitor: f1
+2024-10-08 00:32:28,892 - train_batch_size: 16
+2024-10-08 00:32:28,893 - eval_batch_size: 8
+2024-10-08 00:32:28,894 - test_batch_size: 8
+2024-10-08 00:32:28,895 - wait_patience: 8
+2024-10-08 00:32:28,895 - num_train_epochs: 100
+2024-10-08 00:32:28,896 - beta_shift: 0.005
+2024-10-08 00:32:28,898 - dropout_prob: 0.5
+2024-10-08 00:32:28,899 - warmup_proportion: 0.1
+2024-10-08 00:32:28,900 - lr: 2e-05
+2024-10-08 00:32:28,901 - aligned_method: ctc
+2024-10-08 00:32:28,902 - weight_decay: 0.03
+2024-10-08 00:32:28,902 - temp: 0.07
+2024-10-08 00:32:28,903 - dst_feature_dims: 768
+2024-10-08 00:32:28,904 - n_levels_self: 1
+2024-10-08 00:32:28,905 - n_levels_cross: 1
+2024-10-08 00:32:28,906 - dropout_rate: 0.2
+2024-10-08 00:32:28,909 - cross_dp_rate: 0.3
+2024-10-08 00:32:28,910 - cross_num_heads: 12
+2024-10-08 00:32:28,911 - self_num_heads: 8
+2024-10-08 00:32:28,912 - pred_output_path: outputs\shark_MIntRec_multi-class_2024-10-08-00-32-28
+2024-10-08 00:32:28,913 - model_output_path: outputs\shark_MIntRec_multi-class_2024-10-08-00-32-28\models
+2024-10-08 00:32:28,916 - ============================== End Params ==============================
+2024-10-08 00:32:29,068 - Generate Text Features Begin...
+2024-10-08 00:32:34,593 - Generate Text Features Finished...
+2024-10-08 00:32:34,594 - Load Video Features Begin...
+2024-10-08 00:32:36,719 - Load Video Features Finished...
+2024-10-08 00:32:39,186 - Load Audio Features Begin...
+2024-10-08 00:32:48,457 - Load Audio Features Finished...
+2024-10-08 00:33:39,477 - Generate Relation Features From comet Begin...
+2024-10-08 00:33:48,024 - Generate Relation Features From comet Finished...
+2024-10-08 00:33:48,025 - Generate Relation Features From sbert Begin...
+2024-10-08 00:33:52,440 - Generate Relation Features From sbert Finished...
+2024-10-08 00:33:52,445 - Generate Text Features Begin...
