@@ -1,4 +1,3 @@
-```markdown
 # MICK – Multimodal Intent Recognition through Commonsense Knowledge Extraction
 
 ## 1. Generate Commonsense Knowledge using COMET & VisualCOMET
