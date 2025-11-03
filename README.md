@@ -1,4 +1,3 @@
-```markdown
 # MICK – Multimodal Intent Recognition through Commonsense Knowledge Extraction
 
 ## 1. Generate Commonsense Knowledge using COMET & VisualCOMET
@@ -93,33 +92,8 @@ Extract to: `datasets/MIntRec/`
 sh scripts/run_mick.sh
 ```
 
-> Default config: `bert-base-uncased`, VisualCOMET + COMET fusion, cross-modal attention, class-weighted loss.
 
----
-
-## 3. Directory Structure
-
-```
-MICK/
-├── comet-commonsense/
-├── visual-comet/
-├── mick/
-│   ├── datasets/
-│   │   └── MIntRec/
-│   ├── video_feats.pkl
-│   ├── audio_feats.pkl
-│   ├── scripts/
-│   │   └── run_mick.sh
-│   ├── configs/mick.yaml
-│   └── requirements.txt
-├── input/
-│   └── text.txt
-└── output/
-    ├── comet_relations.json
-    └── visualcomet_inferences.json
-```
-
-## 5. Acknowledgments
+## 3. Acknowledgments
 
 This work builds upon:
 - [MIntRec](https://github.com/thuiar/MIntRec)
